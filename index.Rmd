@@ -53,16 +53,4 @@ readRDS(viz2)
 readRDS(viz3)
 ```
 
-## Column {data-width="550"}
-
-### GIVE ME A TITLE 3
-
-```{r}
-readRDS(viz1)
-```
-
-### GIVE ME A TITLE 4
-
-```{r}
-readRDS(viz2)
 ```
