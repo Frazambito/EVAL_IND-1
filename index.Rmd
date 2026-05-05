@@ -1,0 +1,68 @@
+---
+title: "My EVAL 1"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+---
+
+
+```{r setup, include=FALSE}
+library(flexdashboard) # always
+```
+
+<!-- links -->
+```{r}
+map1link = "https://github.com/Frazambito/EVAL_IND-1/raw/main/map1.rds"
+map2link = "https://github.com/Frazambito/EVAL_IND-1/raw/main/map2.rds"
+map3link = "https://github.com/Frazambito/EVAL_IND-1/raw/main/map3.rds"
+
+viz1=url(map1link)
+
+viz2=url(map2link)
+
+viz3=url(map3link)
+```
+
+## Intro {.sidebar}
+
+Evaluacion individual 1 - Generacion de mapas DDM, PSM Y CHOROPLETH MAP. 
+20203341 - Franco Andre Zambrano Cotrina. 
+2026-1. 
+
+
+## Column {.tabset .tabset-fade}
+
+### DDM
+
+```{r}
+
+readRDS(viz1)
+```
+
+### PSM
+
+```{r}
+
+readRDS(viz2)
+```
+
+### CLOROPLETH
+
+```{r}
+
+readRDS(viz3)
+```
+
+## Column {data-width="550"}
+
+### GIVE ME A TITLE 3
+
+```{r}
+readRDS(viz1)
+```
+
+### GIVE ME A TITLE 4
+
+```{r}
+readRDS(viz2)
+```
