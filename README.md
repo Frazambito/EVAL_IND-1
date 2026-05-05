@@ -6,3 +6,5 @@ https://colab.research.google.com/drive/162M0DMwjbqAwerNz-o9e8pQS3ABut6Cs?usp=sh
 https://rpubs.com/Frazambito/1427292
 https://rpubs.com/Frazambito/1427296
 https://rpubs.com/Frazambito/1427300
+
+https://frazambito.github.io/EVAL_IND-1/
